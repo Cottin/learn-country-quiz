@@ -6,8 +6,9 @@ This exercise is not primarily about programming but there will be coding needed
 ## Grading
 Your team will recieve one of the following grades: Fail, Pass (G) or Pass with distinction (VG). In order to achieve pass, you need to succesfully complete questions 1 through 5. In order to achieve pass with distinction you need to also complete questions 5 through 8. To achieve pass with distinction you also need to come up with some suggestions for improvements to the development process we're creating in this exercise. Questions 9 and 10 are extra assignments that are optional to do if you've finished the other questions and still feel you have time to spare.
 
-- [ ] 1 - Set up a pipeline **G**
-- [x] 2 - Basic feature flagging **G**
+- :white_large_square 0 - Instructions
+- :white_large_square 1 - Set up a pipeline **G**
+- :white_check_mark 2 - Basic feature flagging **G**
 - [ ] 3 - Small improvements **G**
 - [ ] 4 - Improved feature flagging **G**
 - [ ] 5 - Randomized order and unit tests **G**
