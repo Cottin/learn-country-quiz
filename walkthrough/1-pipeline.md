@@ -10,4 +10,5 @@ After every team member has cloned your teams fork to their local machine, have 
 ## Pipeline
 In order to really try out trunk based development we're only going to work with one branch in this project, `main`. Set up a pipeline in github actions that runs the production build and deploys the result to either Heroku, Firebase hosting or any other similar cloud provider (see previous lessons and labs). This app will only be a front end, no backend code will be needed. We will use the real time database in Firebase for data needs.
 
+Don't forget to [put a green checkmark](walkthrough/0-instructions.md) before you continue to the next task!
 

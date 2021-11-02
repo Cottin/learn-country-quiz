@@ -6,23 +6,27 @@ This exercise is not primarily about programming but there will be coding needed
 ## Grading
 Your team will recieve one of the following grades: Fail, Pass (G) or Pass with distinction (VG). In order to achieve pass, you need to succesfully complete questions 1 through 5. In order to achieve pass with distinction you need to also complete questions 5 through 8. To achieve pass with distinction you also need to come up with some suggestions for improvements to the development process we're creating in this exercise. Questions 9 and 10 are extra assignments that are optional to do if you've finished the other questions and still feel you have time to spare.
 
-- :white_large_square 0 - Instructions
-- :white_large_square 1 - Set up a pipeline **G**
-- :white_check_mark 2 - Basic feature flagging **G**
-- [ ] 3 - Small improvements **G**
-- [ ] 4 - Improved feature flagging **G**
-- [ ] 5 - Randomized order and unit tests **G**
-- [ ] 6 - GDPR **G**
-- [ ] 7 - Advanced feature flags **VG**
-- [ ] 8 - New version message **VG**
-- [ ] 9 - Latest games feature **VG**
-- [ ] 10 - A/B testing **VG**
-- [ ] 11 - Reordering feature **Optional extra**
-- [ ] 12 - Implement some of your suggestions **Optional extra**
+Done | Step | Grading
+--- | --- | ---
+✅ | 0 - Instructions | -
+⬜ | 1 - Set up a pipeline | **G**
+⬜ | 2 - Basic feature flagging | **G**
+⬜ | 3 - Small improvements | **G**
+⬜ | 4 - Improved feature flagging | **G**
+⬜ | 5 - Randomized order and unit tests | **G**
+⬜ | 6 - GDPR | **G**
+⬜ | 7 - Advanced feature flags | **VG**
+⬜ | 8 - New version message | **VG**
+⬜ | 9 - Latest games feature | **VG**
+⬜ | 10 - A/B testing | **VG**
+⬜ | 11 - Make some suggestions for how to improve the development process | **VG**
+⬜ | 12 - Reordering feature | **Optional extra**
+⬜ | 13 - Implement some of your suggestions | **Optional extra**
 
 - Auto generate documentation
 
-- Make some suggestions for how to improve the development process **VG**
+***NOTE:** As you go though the exercie steps, make sure to update this file by replacing the gray squares with green checkboxes so that company management can follow along and see how far you've gotten.*
+
 
 
 ## Examinations
