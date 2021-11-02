@@ -35,4 +35,4 @@ After one week, on Wednesday, each team will get to present their solutions to Q
 The final examination is your groups fork of this repository together with some questions answered on the course web site. That hand in will be on thursday the last week of the course.
 
 
-[Let's start coding!](walkthrough/1-pipeline)
+[Let's start coding!](1-pipeline.md)
