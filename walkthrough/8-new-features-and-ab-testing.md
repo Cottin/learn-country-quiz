@@ -18,7 +18,7 @@ The following 4 features could be done in parallel if your team wishes to divide
 ## Grid
 Our head UX-designer wanted to try to arrange the possible alternatives for questions in a different way. He attached a sketch below:
 
-![Sketch](sketch5.png)
+![Sketch](assets/sketch5.png)
 
 Your task is to implement this new feature and hide it behind a new advanced feature flag. Note that you should not change any of the game logic, only the arrangement of the answers. It should be possible for two players of different profiles to play with each other while one uses the grid view and the other the old view. For example if you have enabled the grid view for the alpha profile, the alpha players will see the grid while playing, even if they play with a beta user for which you might have turned of the grid flag. The beta user will see the old view but the two should still be able to play with each other.
 
@@ -33,7 +33,7 @@ Your UX-designer isn't really sure if the Grid-view will be better than the stac
 ## Latest games
 The client have requested that there should be a short list of the 3 or 4 latest games played and their scores. They have attached a simple sketch:
 
-![Sketch](sketch6.png)
+![Sketch](assets/sketch6.png)
 
 Make sure to do development behind an advanced feature flag and practive trunk based development as usual.
 

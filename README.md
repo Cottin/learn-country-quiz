@@ -4,11 +4,11 @@ This is an exercise to learn about Continious Deployment, trunk based developmen
 ## Introduction
 You're all employees at the company Initech in sunny California.
 
-![Initech](walkthrough/initech1.jpeg)
+![Initech](walkthrough/assets/initech1.jpeg)
 
 Initech is one of the biggest consultancies when it comes to Javascript programming in the area and has several big clients in it's portfolio. However, the working methods and processes are getting a bit outdated. The R&D department has for a long time been working with extensive feature branching and followed the [gitflow branching model](https://nvie.com/posts/a-successful-git-branching-model/). Client projects have been run rather statically with sprints followed by a testing period and monthly releases. There hasen't been any major problems but clients say they want a more dynamic work process with more frequent releases. Apparently many competitors are delivering new features daily in many projects and clients are growing tired of having to wait for the montly release even when they're requesting a really important feature that should be small enough to just launch within a week.
 
-![Initech](walkthrough/lumbergh.jpeg)
+![Initech](walkthrough/assets/lumbergh.jpeg)
 
 Company managment have decided they need to "get with the times" and start working with Continious Deployment, trunk-base development and other modern work flows which most of the competitors are now doing anyway.
 
