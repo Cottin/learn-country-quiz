@@ -1,0 +1,103 @@
+body {
+	margin: 0;
+	font-family: 'Nunito Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	height: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	background-color: var(--grey);
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+#root {
+	height: 100%;
+}
+
+
+.b { font-weight: 600; }
+
+.p1 { padding: 0.1rem; }
+.p2 { padding: 0.2rem; }
+.p3 { padding: 0.3rem; }
+.p4 { padding: 0.4rem; }
+
+.m1 { margin: 0.1rem; }
+.m2 { margin: 0.2rem; }
+.m3 { margin: 0.3rem; }
+.m4 { margin: 0.4rem; }
+.m5 { margin: 0.6rem; }
+.m6 { margin: 0.8rem; }
+.m7 { margin: 1.0rem; }
+.m8 { margin: 1.5rem; }
+.m9 { margin: 2.0rem; }
+.m10 { margin: 2.5rem; }
+
+.fw1 { font-weight: 200; }
+.fw2 { font-weight: 300; }
+.fw3 { font-weight: 400; }
+.fw4 { font-weight: 600; }
+.fw5 { font-weight: 700; }
+.fw6 { font-weight: 800; }
+.fw7 { font-weight: 900; }
+
+.fs1 { font-size: 0.7rem; }
+.fs2 { font-size: 0.8rem; }
+.fs3 { font-size: 0.9rem; }
+.fs4 { font-size: 1.0rem; }
+.fs5 { font-size: 1.1rem; }
+.fs6 { font-size: 1.2rem; }
+.fs7 { font-size: 1.5rem; }
+.fs8 { font-size: 1.8rem; }
+.fs9 { font-size: 2.0rem; }
+.fs10 { font-size: 2.0rem; }
+.fs11 { font-size: 2.5rem; }
+.fs12 { font-size: 3.0rem; }
+.fs13 { font-size: 3.5rem; }
+.fs14 { font-size: 4.0rem; }
+.fs15 { font-size: 4.5rem; }
+.fs16 { font-size: 5.0rem; }
+.fs17 { font-size: 7.0rem; }
+
+
+:root {
+	--grey: #f6f7f9;
+	--grey1: #6d6d6d;
+	--grey2: #f0f0f0;
+	--blue: #1a73e8;
+	--green: #38b134;
+	--red: #b13434;
+	--white: #ffffff;
+	--black: #3e3e3e;
+}
+
+
+.h1 { height: 0.7rem; }
+.h2 { height: 0.8rem; }
+.h3 { height: 0.9rem; }
+.h4 { height: 1.0rem; }
+.h5 { height: 1.1rem; }
+.h6 { height: 1.2rem; }
+.h7 { height: 1.5rem; }
+.h8 { height: 1.8rem; }
+.h9 { height: 2.0rem; }
+.h10 { height: 2.0rem; }
+.h11 { height: 2.5rem; }
+.h12 { height: 3.0rem; }
+.h13 { height: 3.5rem; }
+.h14 { height: 4.0rem; }
+.h15 { height: 4.5rem; }
+.h16 { height: 5.0rem; }
+.h17 { height: 7.0rem; }
+
+.tac { text-align: center; }

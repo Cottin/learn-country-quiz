@@ -1,0 +1,145 @@
+
+.app {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.header {
+  background-color: #565656;
+  font-size: 3rem;
+  font-weight: 900;
+  color: transparent;
+  text-shadow: 0px 1px 3px rgba(255, 255, 255, 0.8);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.middle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer {
+	background: var(--blue);
+	height: 10vh;
+}
+
+.page {
+	background: #FFFFFF;
+	box-shadow: 0 2px 4px 1px rgba(0,0,0,0.15);
+	width: 90vw;
+	max-width: 900px;
+	min-height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.st-flags {
+	display: flex;
+	margin-bottom: 4rem;
+	flex-wrap: wrap;
+	margin: 0 2rem 4rem 2rem;
+}
+
+.button {
+	background: var(--grey2);
+	color: var(--grey1);
+	font-size: 2rem;
+	font-weight: 700;
+	padding: 4rem;
+	border: 1px solid #E6E6E6;
+	box-shadow: 0 2px 4px 0 rgba(166,166,166,0.50);
+	cursor: pointer;
+}
+
+.button:hover {
+	background: #E6E6E6;
+}
+
+.btn-square {
+	padding: 4rem;
+}
+
+.link {
+	color: blue;
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.alternatives {
+	margin-top: 2rem;
+}
+
+.alt {
+	background: #F0F0F0;
+	border: 1px solid #E6E6E6;
+	margin: 1rem;
+	width: 80vw;
+	max-width: 700px;
+	text-align: center;
+	padding: 0.9rem;
+	font-size: 1.6rem;
+	position: relative;
+}
+
+.alt-green {
+	color: #ffffff;
+	background: #38B134;
+	box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.50);
+}
+.alt-red {
+	color: #ffffff;
+	background: #B13434;
+	box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.50);
+}
+.alt-label {
+	position: absolute;
+	right: -10px;
+	top: 1rem;
+	color: #ffffff;
+	font-size: 1.2rem;
+	background: #3E3E3E;
+	box-shadow: 0 2px 4px 1px rgba(0,0,0,0.15);
+	border-radius: 24.5px;
+	padding: 0.2rem 1rem;
+}
+
+.quick-results {
+	color: #ffffff;
+	font-size: 1.5rem;
+	font-weight: 700;
+	background: #3E3E3E;
+	box-shadow: 0 2px 4px 1px rgba(0,0,0,0.15);
+	border-radius: 24.5px;
+	padding: 0.7rem 2rem;
+}
+
+.results {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.re-text {
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: rgba(0, 0, 0, 0.2);
+	margin: 2rem 1rem;
+	text-align: center;
+}
+.re-home {
+	margin-top: 2rem;
+}
