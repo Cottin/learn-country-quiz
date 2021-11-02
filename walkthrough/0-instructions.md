@@ -9,18 +9,16 @@ Your team will recieve one of the following grades: Fail, Pass (G) or Pass with 
 Done | Step | Grading
 --- | --- | ---
 ✅ | 0 - Instructions | -
-⬜ | 1 - Set up a pipeline | **G**
+⬜ | 1 - [Set up a pipeline](1-pipeline.md) | **G**
 ⬜ | 2 - Basic feature flagging | **G**
 ⬜ | 3 - Small improvements | **G**
 ⬜ | 4 - Improved feature flagging | **G**
 ⬜ | 5 - Randomized order and GDPR | **G**
 ⬜ | 6 - Add Google analytics | **G**
 ⬜ | 7 - Advanced feature flags | **VG**
-⬜ | 8 - New version message | **VG**
-⬜ | 8 - Advanced features and A/B testing | **VG**
-⬜ | 9 - A/B testing | **VG**
-⬜ | 10 - Make some suggestions for how to improve the development process | **VG**
-⬜ | 11 - Reordering feature | **Optional extra**
+⬜ | 8 - New features and A/B testing | **VG**
+⬜ | 9 - Make some suggestions for how to improve the development process | **VG**
+⬜ | 10 - Implement some of your suggestions | **Optional task**
 
 - Auto generate documentation
 
@@ -36,4 +34,4 @@ After one week, on Wednesday, each team will get to present their solutions to Q
 The final examination is your groups fork of this repository together with some questions answered on the course web site. That hand in will be on thursday the last week of the course.
 
 
-[Let's start coding!](1-pipeline.md)
+[Let's begin!](1-pipeline.md)
