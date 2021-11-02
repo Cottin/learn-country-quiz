@@ -1,5 +1,5 @@
 # Country Quiz
-This is an exercise to learn about Continious Deployment and trunk based development. Divide into teams of 3 and come up with a team name.
+This is an exercise to learn about Continious Deployment, trunk based development and feature flags. Divide into teams of 3 and come up with a team name.
 
 ## Introduction
 You're all employees at the company Initech in sunny California.

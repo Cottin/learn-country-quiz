@@ -19,22 +19,13 @@ Initech management wants to really try out this trunk based development so here 
 - Make sure to commit often! If you have set up feature flags correctly you should be able to commit without disturbing "normal" visitors going to your public url as well as your team mates working with their own tasks.
 
 
-## Hand-in
-When you've finished the three functions, make a short screen recording showing:
-
-- That if no feature flags are turned on, the user gets the existing game flow.
-- You flipping 2 of three feature flags in the console in chrome and go through the improved game flow.
-- You flipping all 3 flags to true in the console and going through the fully improved game flow.
-
-Save this screen recording, it will be part of the hand in later.
-
 
 ## Set feature flags by default
-When you've finished the tasks and completed the screen recording for hand in, turn all flags on by default. For instance in `index.js` or a similar place that gets executed before app start, check if the feature flags in local storage are set. If the are not set, make sure to set them and turn them on by default. This way, the new default game flow for "normal" visitors is the new improved game flow that your team build. At the same time, if we notice any bugs in the new feature, we can easiliy "roll them back" by turning one or flags off by default.
+When you've finished the tasks and, turn all flags on by default. For instance in `index.js` or a similar place that gets executed before app start, check if the feature flags in local storage are set. If the are not set, make sure to set them and turn them on by default. This way, the new default game flow for "normal" visitors is the new improved game flow that your team build. At the same time, if we notice any bugs in the new feature, we can easiliy "roll them back" by turning one or flags off by default.
 
 
 
+Don't forget to [put a green checkmark](0-instructions.md) before you continue to the next task!
 
-
-
+[Continue!](4-improved-feature-flagging.md)
 

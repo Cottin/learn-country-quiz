@@ -13,20 +13,21 @@ Done | Step | Grading
 ⬜ | 2 - Basic feature flagging | **G**
 ⬜ | 3 - Small improvements | **G**
 ⬜ | 4 - Improved feature flagging | **G**
-⬜ | 5 - Randomized order and unit tests | **G**
-⬜ | 6 - GDPR | **G**
+⬜ | 5 - Randomized order and GDPR | **G**
+⬜ | 6 - Add Google analytics | **G**
 ⬜ | 7 - Advanced feature flags | **VG**
 ⬜ | 8 - New version message | **VG**
-⬜ | 9 - Latest games feature | **VG**
-⬜ | 10 - A/B testing | **VG**
-⬜ | 11 - Make some suggestions for how to improve the development process | **VG**
-⬜ | 12 - Reordering feature | **Optional extra**
-⬜ | 13 - Implement some of your suggestions | **Optional extra**
+⬜ | 8 - Advanced features and A/B testing | **VG**
+⬜ | 9 - A/B testing | **VG**
+⬜ | 10 - Make some suggestions for how to improve the development process | **VG**
+⬜ | 11 - Reordering feature | **Optional extra**
 
 - Auto generate documentation
 
 ***NOTE:** As you go though the exercie steps, make sure to update this file by replacing the gray squares with green checkboxes so that company management can follow along and see how far you've gotten.*
 
+The url to our site is:
+[Post your url here](http://your-super-site-url.web.app)
 
 
 ## Examinations
