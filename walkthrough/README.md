@@ -10,17 +10,16 @@ Done | Step | Grading
 --- | --- | ---
 ✅ | 0 - Instructions | -
 ⬜ | 1 - [Set up a pipeline](1-pipeline.md) | **G**
-⬜ | 2 - Basic feature flagging | **G**
-⬜ | 3 - Small improvements | **G**
-⬜ | 4 - Improved feature flagging | **G**
-⬜ | 5 - Randomized order and GDPR | **G**
-⬜ | 6 - Add Google analytics | **G**
-⬜ | 7 - Advanced feature flags | **VG**
-⬜ | 8 - New features and A/B testing | **VG**
-⬜ | 9 - Make some suggestions for how to improve the development process | **VG**
-⬜ | 10 - Implement some of your suggestions | **Optional task**
+⬜ | 2 - [Basic feature flagging](2-basic-feature-flagging.md) | **G**
+⬜ | 3 - [Small improvements](3-small-improvements.md) | **G**
+⬜ | 4 - [Improved feature flagging](4-improved-feature-flagging.md) | **G**
+⬜ | 5 - [Randomized order and GDPR](5-randomized-order.md) | **G**
+⬜ | 6 - [Add Google analytics](6-google-analytics.md) | **G**
+⬜ | 7 - [Advanced feature flags](7-advanced-feature-flags.md) | **VG**
+⬜ | 8 - [New features and A/B testing](8-new-features-and-ab-testing.md) | **VG**
+⬜ | 9 - [Improvement suggestions](9-suggest-improvements.md) | **VG**
+⬜ | 10 - [Implement suggestions](10-implement-suggestions.md) | **Optional task**
 
-- Auto generate documentation
 
 ***NOTE:** As you go though the exercie steps, make sure to update this file by replacing the gray squares with green checkboxes so that company management can follow along and see how far you've gotten.*
 

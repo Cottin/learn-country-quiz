@@ -24,15 +24,4 @@ Some of your colleges already started the project last week but they didn't have
 
 
 ## Let's go
-So divide into teams of 3, make use of all your knowledge from previous projects and [let's go](walkthrough/0-instructions.md).
-
-
-## Quick Links
-
-- [1 - Setup](/walkthrough/1-instructions.md)
-- [2 - Analyze Bundle](/walkthrough/2-analyze-bundle.md)
-- [3 - Separate Configs](/walkthrough/3-separate-configs.md)
-- [4 - Tree Shaking](/walkthrough/4-tree-shaking.md)
-- [5 - Minify and Sourcemaps](/walkthrough/5-minify-and-sourcemaps.md)
-- [6 - Code Splitting](/walkthrough/6-code-splitting.md)
-- [7 - Optimize React Components](/walkthrough/7-optimize-react-components.md)
+So divide into teams of 3, make use of all your knowledge from previous projects and [let's go](walkthrough/README.md).
