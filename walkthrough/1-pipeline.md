@@ -11,11 +11,11 @@ One group member creates a Firebase project and sets up a Real time database in 
 
 Secondly, Setup Firebase hosting from the firebase console and go through the steps in the wizard. When running `firebase init` do so from the `app` folder. In the questions asked by the `firebase init` script in your terminal, select that you want "Firebase Realtime Database" and "Hosting" (Note that they might not be worded exacly like that depending on you version of `firebase-tools` you have installed). Later use the option "Use existing project" and choose the project you've just created in Firebase.
 
-  // Answer questions like so:
-  ? What file should be used for Realtime Database Security Rules? database.rules.json
-  ? What do you want to use as your public directory? dist
-  ? Configure as a single-page app (rewrite all urls to /index.html)? Yes
-  ? Set up automatic builds and deploys with GitHub? No
+    // Answer questions like so:
+    ? What file should be used for Realtime Database Security Rules? database.rules.json
+    ? What do you want to use as your public directory? dist
+    ? Configure as a single-page app (rewrite all urls to /index.html)? Yes
+    ? Set up automatic builds and deploys with GitHub? No
  
 
 ## Run locally
