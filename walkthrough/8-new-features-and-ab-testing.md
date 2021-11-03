@@ -35,17 +35,17 @@ The client have requested that there should be a short list of the 3 or 4 latest
 
 ![Sketch](assets/sketch6.png)
 
-Make sure to do development behind an advanced feature flag and practive trunk based development as usual.
+Make sure to do development behind an advanced feature flag and practice trunk based development as usual.
 
-**Tip!** You might need to add a `finishedTime` field to each `game` object in Firebase when a game is finished so that you can filter out the latest games on the start page.
+**Tip!** You might need to add a `finishedTime` field or similar to each `game` object in Firebase when a game is finished so that you can filter out the latest games on the start page.
 
 
 ## Countdown
-The CEO of Initech is quite a impatient person and she doesn't like the wait between questions. She suggests that your team implements a countdown from like "Next question in 3...2...1" that is shown between questions after a player has answered.
+The CEO of Initech is quite an impatient person and she doesn't like the wait between questions. She suggests that your team implements a countdown along the lines of "Next question in 3...2...1" that is shown between questions after a player has answered.
 
-Make sure to do development behind an advanced feature flag and practive trunk based development as usual.
+Make sure to do development behind an advanced feature flag and practice trunk based development as usual.
 
-**Tip!** Make sure that the countdown is "synced" between player1 and player2 so that they down get different coundowns.
+**Tip!** Make sure that the countdown is "synced" between player1 and player2 so that they don't get different coundowns.
 
 
 ## Number of questions
@@ -53,7 +53,7 @@ The flag game is now taking of internaly in Initech and people are playing durin
 
 Implement a new feature that makes the players able to chose the number of questions that should be generated when they start a new game.
 
-Make sure to do development behind an advanced feature flag and practive trunk based development as usual.
+Make sure to do development behind an advanced feature flag and practice trunk based development as usual.
 
 **Tip!** If you look in the `StartPage` component in `App.js` you'll see that the `utils.createGame` function is called when player2 (the second person) clicks "Play". So one easy way of implementing it might be to replace the "Play" button with tree buttons "Play 5", "Play 10" and "Play 15" when the key `nextGame` in Firebase is not null.
 

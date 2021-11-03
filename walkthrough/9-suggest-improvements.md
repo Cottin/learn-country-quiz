@@ -1,5 +1,5 @@
 # 9 - Suggest Improvements
-Now that you've been working in a trund based project using many kind of feature flags, you are asked to reflect around your experience.
+Now that you've been working in a trunk based project using many kind of feature flags, you are asked to reflect around your experience.
 
 - What did you like with this work method?
 - What didn't you like?

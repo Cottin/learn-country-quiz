@@ -7,7 +7,7 @@ To start with, one person from your team needs to fork this repo and add the oth
 
 
 ## Setup Firebase
-One group member creates a Firebase project and sets up a Real time database in the UI. Then replace the firebase configuration in `App.js` with your own.
+One group member creates a Firebase project and sets up a Real time database in the UI. Then replace the firebase configuration in `App.js` with your own. Make sure to go to Firebase settings > Users and permissions > and add all team members as members so everyone can you the real time database UI.
 
 ## Run locally
 After every team member has cloned your teams fork to their local machine, have a look at the `package.json` and make sure everyone figures out and are able to run the app for development now when it is connected to your own real time database in Firebase.
