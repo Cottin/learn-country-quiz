@@ -8,14 +8,14 @@ The difference is now we want to bundle feature flags into different "profiles".
 
 ## Advanced view
 ![Sketch](assets/sketch3.png)
-Your task is to implement a second setup page at `your-site.com/setup-advanced` that should look somewhat like the sketch above. As you can see, the profiles Alpha, Beta, Pilots, Rest should be configurable separatly by flipping different feature flags on or off. In order to keep track of what profile a visitor is using we also want to be able to set a different background for each profile. This should change the background at the bottom of the app which is for the moment blue. This `setup-advanced` page should be connected to firebase under a new key, for instance `featureFlags`.
+Your task is to implement a second setup page at `your-site.com/setup-advanced` that should look somewhat like the sketch above. As you can see, the profiles Alpha, Beta, Pilot, Rest should be configurable separatly by flipping different feature flags on or off. In order to keep track of what profile a visitor is using we also want to be able to set a different background for each profile. This should change the background at the bottom of the app which is for the moment blue. This `setup-advanced` page should be connected to firebase under a new key, for instance `featureFlags`. That is - don't put your feature flags
 
 ## Using the advanced flags
-You will in the upcoming task use the advanced feature flags you just created. In order for testing to be easier, your team is also asked to update the `/setup` page to include a new "Chosen profile" section where we can set if we are a alpha, beta, pilo or rest user. The selected option should be stored in localStorage under the key "profile". If no value is set for "profile" in localStorage, the UI should mark the "not set" option like in the sketch. Also, if you have chosen alpha and change to "not set" the localStorage key "profile" should be removed completely.
+You will in the upcoming task use the advanced feature flags you just created. In order for testing to be easier, your team is also asked to update the `/setup` page to include a new "Chosen profile" section where we can set if we are a alpha, beta, pilot or rest user. The selected option should be stored in localStorage under the key "profile". If no value is set for "profile" in localStorage, the UI should mark the "not set" option like in the sketch below. Also, if you have chosen alpha and change to "not set" the localStorage key "profile" should be removed completely.
 
 ![Sketch](assets/sketch4.png)
 
-On app startup (eg. in `index.js`) you need to check for the localStorage key "profile" and if it is not set, it should be set to "pilot" by a 30% chance and to "rest" by a 70% chance. This is a simple way of segmenting our user base into "pilots" and "rest".
+On app startup (eg. in `index.js`) you need to check for the localStorage key "profile" and if it is not set, it should be set to "pilot" by a 30% chance and to "rest" by a 70% chance. This is a simple way of segmenting our user base into "pilot" and "rest".
 
 
 ---
