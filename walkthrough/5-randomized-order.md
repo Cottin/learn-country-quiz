@@ -7,7 +7,7 @@ It's also time to make the application GDPR-complient.
 The suggestions is that two members of your team starts looking at how to generate randomized questions while the 3rd member starts looking at the GDPR task below.
 
 - Make sure to hide this new feature behind a new feature flag like you did in the previous task
-- The `createGame` function is located in `src/utils.js` so make sure to continue from there.
+- The `createGame` function is located in `src/utils.js` so make sure to continue from there. To be clear, that function creates the data for the game, ie. all questions etc. It doesn't actually kick of the game, that is done in `App.js`.
 - You must create at least one unit test using mocha that tests for instance that the generated questions don't ask about the same flag and at least one unit test testing that the generated alternatives for a question are different countries.
 - Generate 5 questions for each game
 - You must create a new workflow in your deploy pipeline that runs the tests and adds a badge to your readme saying if tests passed or failed.
