@@ -7,9 +7,9 @@ They want the scoring to work like this: When you're the first to answer correct
 
 That is - you need to update the `score` key of the `game` object in your Firebase data to either increase by +1 or decrease by -1. Have a look at this part of `App.js`:
 
-  if (countryCode == question.correct) {
-    updates[`/games/${gameId}/score/${youKey}`] = game.score[youKey] + 1
-  }
+    if (countryCode == question.correct) {
+      updates[`/games/${gameId}/score/${youKey}`] = game.score[youKey] + 1
+    }
 
 **Second**, they want more small flags on the start page (over the "Play"-button), and they want the flags presented there to be randomized so it's not the same all the time. **Tip:** `src/countries.js` contains an object literal with all possible country codes. Make sure to have at least tripple the amount of flags there compared to now and that they are randomized differently when refreshing the page.
 
