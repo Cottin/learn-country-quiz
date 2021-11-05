@@ -5,6 +5,12 @@ Our client tested the prototype the other day and have 3 suggestions for improve
 
 They want the scoring to work like this: When you're the first to answer correctly, you should get +1 point, but if you're the first to answer incorrectly, you should get -1 (minus) point. It should still only be the fastest person who gets to answer.
 
+That is - you need to update the `score` key of the `game` object in your Firebase data to either increase by +1 or decrease by -1. Have a look at this part of `App.js`:
+
+  if (countryCode == question.correct) {
+    updates[`/games/${gameId}/score/${youKey}`] = game.score[youKey] + 1
+  }
+
 **Second**, they want more small flags on the start page (over the "Play"-button), and they want the flags presented there to be randomized so it's not the same all the time. **Tip:** `src/countries.js` contains an object literal with all possible country codes. Make sure to have at least tripple the amount of flags there compared to now and that they are randomized differently when refreshing the page.
 
 **Third**, they realize that if it's a tie, it looks like both players have won. They want it to be more obvious that it's a tie on the result page if the game actually was a tie (ex. YOU 1 - 1 OPPONENT). They want you to find a good image representing a tie and change the text from "Congratulations!!" to something more appropriate for a tie.
