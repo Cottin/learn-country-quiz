@@ -8,5 +8,6 @@ Now that you've been working in a trunk based project using many kind of feature
 	- Some improvements to your build pipeline?
 	- Some improvements for how to build feature flags? Maybe using a 3rd party tool for it?
 
+Don't forget to [put a green checkmark](README.md) before you continue to the next task!
 
 [Continue to the optional task!](10-implement-suggestions.md)

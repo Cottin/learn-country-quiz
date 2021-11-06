@@ -62,5 +62,7 @@ Make sure to do development behind an advanced feature flag and practice trunk b
 
 If your team has reached here, you should probably be quite proud of yourselves. Our CEO Mr. Lumbergh thanks you for all your hard efforts and hints that you probably have a sizable christmas bonus comming your way this year.
 
+Don't forget to [put a green checkmark](README.md) before you continue to the next task!
+
 
 [Continue to the last task to achive pass with distinction!](9-suggest-improvements.md)

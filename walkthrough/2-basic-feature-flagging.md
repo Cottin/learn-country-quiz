@@ -21,7 +21,7 @@ In order for trunk based development to work we need a way to do dark launches a
 
 The goal of this task is that your team in upcoming tasks should be able to commit code directly to the main branch when developing new features but without exposing those features directly to the end user. By flipping different feature flags on or off in `localStorage` you will be able to expose or hide the new features you're building. In this way, visitors such as testers or people from our client will be able to test the stable version of the app while you develop and test new features in the same environment!
 
-Don't forget to [put a green checkmark](0-instructions.md) before you continue to the next task!
+Don't forget to [put a green checkmark](README.md) before you continue to the next task!
 
 ***NOTE:** If all this sounds a bit vague, continue reading the next task to see how these feature flags are suppose to work and help you in upcomming tasks.*
 

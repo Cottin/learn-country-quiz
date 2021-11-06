@@ -31,7 +31,7 @@ When you've finished the tasks and, turn all flags on by default. For instance i
 
 
 
-Don't forget to [put a green checkmark](0-instructions.md) before you continue to the next task!
+Don't forget to [put a green checkmark](README.md) before you continue to the next task!
 
 [Continue!](4-improved-feature-flagging.md)
 

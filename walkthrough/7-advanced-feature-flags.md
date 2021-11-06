@@ -22,7 +22,7 @@ On app startup (eg. in `index.js`) you need to check for the localStorage key "p
 
 When your `/setup-advanced`, `/setup` and `index.js` 30% / 70% selection seems to work, continue to the next task to test our your new fancy feature toggles.
 
-Don't forget to [put a green checkmark](0-instructions.md) before you continue to the next task!
+Don't forget to [put a green checkmark](README.md) before you continue to the next task!
 
 [Continue!](8-new-features-and-ab-testing.md)
 

@@ -27,6 +27,6 @@ Deploy your app using firebase hosting from the terminal and make sure you have 
 ## Pipeline
 In order to really try out trunk based development we're only going to work with one branch in this project, `main`. Set up a pipeline in github actions that runs the production build and deploys the result to Firebase hosting (note: the pipeline should automatically deploy to firebase hosting, you should not do it manually from your terminal). This app will only be a front end, no backend code will be needed. We will use the real time database in Firebase for data needs.
 
-Don't forget to [put a green checkmark](0-instructions.md) before you continue to the next task!
+Don't forget to [put a green checkmark](README.md) before you continue to the next task!
 
 [Continue!](2-basic-feature-flagging.md)

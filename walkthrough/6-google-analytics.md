@@ -17,6 +17,6 @@ In Google (and Firebase) Analytics we can track custom events such as "started-g
 ***Note**: Google Analytics is a bit messy. There is: Old versions of Analytics, GA 4 and Google Tag Manager. In this project, you should implement Google Analytics 4 (GA 4), don't worry about the other. Keep in mind that if you find tutorials online, they might describe how to setup on older version of GA so make sure they are talking about GA 4*
 
 
-Don't forget to [put a green checkmark](0-instructions.md) before you continue to the next task!
+Don't forget to [put a green checkmark](README.md) before you continue to the next task!
 
 [Continue!](7-advanced-feature-flags.md)
