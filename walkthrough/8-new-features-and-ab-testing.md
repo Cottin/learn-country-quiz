@@ -39,7 +39,7 @@ Make sure to do development behind an advanced feature flag and practice trunk b
 
 **Tip!** You might need to add a `finishedTime` field or similar to each `game` object in Firebase when a game is finished so that you can filter out the latest games on the start page.
 
-**Tip nr. 2!** Basic sorting and filtering can be done when using Firebase, [Listing docs](https://firebase.google.com/docs/database/web/lists-of-data). Use can also use lists in react-firebase-hooks [stackoverflow answer](https://stackoverflow.com/questions/66861316/sort-data-on-react-firebase-hooks-database) and also [useList docs](https://github.com/csfrequency/react-firebase-hooks/tree/e5019dae6095a8e6861d9dfc945480bfe29771bf/database#uselist).
+**Tip nr. 2!** Basic sorting and filtering can be done when using Firebase, [Listing docs, sorting and filtering](https://firebase.google.com/docs/database/web/lists-of-data#sorting_and_filtering_data). Use can also use lists in react-firebase-hooks [stackoverflow answer](https://stackoverflow.com/questions/66861316/sort-data-on-react-firebase-hooks-database) and also [useList docs](https://github.com/csfrequency/react-firebase-hooks/tree/e5019dae6095a8e6861d9dfc945480bfe29771bf/database#uselist).
 
 
 ## Countdown
