@@ -49,6 +49,7 @@ Make sure to do development behind an advanced feature flag and practice trunk b
 
 **Tip!** Make sure that the countdown is "synced" between player1 and player2 so that they don't get different coundowns.
 
+**Tip 2!** An easy way of making sure the countdown is synced between both players is to store the 3, 2, 1 numbers in firebase, for example in the game-object. A second way to make the code simpler is to not use any realative calculations, eg. `countdown = someComponentState.countdown - 1`, but instead just have a loop that counts down from 3 and making sure to sleep between the laps and to use the index in the loop directly, eg. `countdown = i`.
 
 ## Number of questions
 The flag game is now taking of internaly in Initech and people are playing during their lunch breaks like crazy. But many beta-testers say the game is too short. They want more than 5 quetions!
